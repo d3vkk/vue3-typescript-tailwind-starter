@@ -1,5 +1,7 @@
 <template>
-  <router-view />
+  <div>
+    <div>Vue3 Typescript Tailwind Starter</div>
+  </div>
 </template>
 
 <script lang="ts">
