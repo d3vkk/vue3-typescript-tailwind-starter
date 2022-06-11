@@ -2,6 +2,7 @@ import { createApp } from "vue";
 import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
 import App from "./App.vue";
 import LandingPage from "./views/LandingPage.vue";
+import "./assets/css/index.css";
 
 const routes: Array<RouteRecordRaw> = [{ path: "/", component: LandingPage }];
 const router = createRouter({
