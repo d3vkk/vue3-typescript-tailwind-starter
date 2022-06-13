@@ -3,6 +3,20 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    --primary: #42b883;
+    --secondary: #35495e;
+    --gray-100: #f3f4f6;
+    --gray-200: #d1d5db;
+    --gray-300: #6b7280;
+    --white: #ffffff;
+    --black: #000000;
+    --font-big: 2rem;
+    --font-normal: 1rem;
+    --font-small: 0.5rem;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: var(--font-normal);
 }
