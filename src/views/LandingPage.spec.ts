@@ -1,5 +1,5 @@
 import { mount } from "@vue/test-utils";
-import LandingPage from "../../views/LandingPage.vue";
+import LandingPage from "./LandingPage.vue";
 import { expect, test } from "vitest";
 
 test("mount component", async () => {
